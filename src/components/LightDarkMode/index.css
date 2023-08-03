@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.mode-container {
+  background-color: aliceblue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dark-mode {
+  width: 40%;
+  border: 3px solid #000000;
+  background-color: #000000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.light-mode {
+  width: 40%;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+.dark-btn {
+  background-color: #ffffff;
+  height: 30px;
+  width: 120px;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
